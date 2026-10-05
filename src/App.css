@@ -1,3 +1,6 @@
+body{
+  font-family: opensans !important;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +39,46 @@
     transform: rotate(360deg);
   }
 }
+.iconButton{
+  transition: all 0.2s !important;
+}
+.iconButton:hover{
+ background-color: #c5c5c5 !important;
+ box-shadow: 0px 7px 7px rgba(0,0,0,0.4 );
+}
+.todocard{
+  transition: all 0.2s !important;
+}
+.todocard:hover{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 0px 7px 7px rgba(0,0,0,0.4 );
+
+}
+/* ===== CUSTOM FONTS ===== */
+@font-face {
+  font-family: opensans;
+  src: url("/public/fonts/OpenSans-Bold.ttf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: opensans;
+  src: url("/public/fonts/OpenSans-ExtraBold.ttf");
+  font-weight: 1000;
+}
+@font-face {
+  font-family: opensans;
+  src: url("/public/fonts/OpenSans-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: opensans;
+  src: url("/public/fonts/OpenSans-LightItalic.ttf");
+  font-weight: 80;
+}
+@font-face {
+  font-family: opensans;
+  src: url("/public/fonts/OpenSans-Light.ttf");
+    font-weight: 100;
+}
+/*=====// CUSTOM FONTS//===== */
